@@ -1,2 +1,2 @@
 #!/bin/bash
-python blore_butler_bot.py
+python $(echo blore_butler_bot.py | tr -d '\r')
