@@ -1,7 +1,7 @@
 services:
-  - type: worker
+  - type: web
     name: blore-butler-bot
     env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "bash start.sh"
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    autoDeploy: true
