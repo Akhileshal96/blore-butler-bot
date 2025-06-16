@@ -1,2 +1,3 @@
 #!/bin/bash
-python blore_butler_bot.py
+
+python3 bot.py
